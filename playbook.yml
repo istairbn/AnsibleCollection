@@ -1,0 +1,7 @@
+- name: Configure BuildServer
+  hosts: testserver
+  sudo: True
+  
+  roles:
+    - ansible-role-java8
+   # - gradle 
